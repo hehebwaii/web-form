@@ -1,15 +1,19 @@
-# Profile Card
+# Community School Homepage
 
-This repository contains a web-based profile card designed to showcase personal information and links to social media accounts. The card is styled using CSS and is responsive to provide a great user experience on various devices.
+Welcome to the Community School Homepage project! This repository contains the source code for the homepage of our local community school, designed to enhance readability, navigation, and overall text aesthetics.
+
+## Project Overview
+
+The goal of this project is to create an engaging and user-friendly homepage for our community school. This includes styling text for better readability, improving navigation, and applying best practices in web design.
 
 ## Features
 
-- **Responsive Design**: The card adapts to different screen sizes.
-- **Hover Effects**: Interactive hover effects on buttons and the card itself.
-- **Standard Colors**: Utilizes standard color names for consistency and readability.
-- **Social Links**: Direct links to GitHub and LinkedIn profiles.
+- Improved text styling for better readability
+- Clear and intuitive navigation menu
+- Responsive design for various devices
+- Accessible features to support all users
 
 ## Technologies Used
 
-- HTML
-- CSS
+- HTML5
+- CSS3
