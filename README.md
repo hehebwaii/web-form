@@ -1,19 +1,30 @@
-# Community School Homepage
+# Registration Form
 
-Welcome to the Community School Homepage project! This repository contains the source code for the homepage of our local community school, designed to enhance readability, navigation, and overall text aesthetics.
-
-## Project Overview
-
-The goal of this project is to create an engaging and user-friendly homepage for our community school. This includes styling text for better readability, improving navigation, and applying best practices in web design.
+This project contains a simple, responsive registration form with client-side validation. It ensures users provide valid input for their username and password before submission.
 
 ## Features
 
-- Improved text styling for better readability
-- Clear and intuitive navigation menu
-- Responsive design for various devices
-- Accessible features to support all users
+- Responsive design for desktop and mobile devices
+- Client-side validation for:
+  - Username (minimum 3 characters)
+  - Password (minimum 8 characters)
+  - Password confirmation (must match)
+- Clear error messages for invalid inputs
+- Success message upon successful registration
 
 ## Technologies Used
 
 - HTML5
 - CSS3
+- JavaScript
+
+## Usage
+
+1. Fill in the form fields with your username and password.
+2. Ensure the username is at least 3 characters long and the password is at least 8 characters long.
+3. Confirm that the password matches the entered password.
+4. Upon successful validation, a success message will be displayed, and the form will reset.
+
+## Acknowledgements
+
+Inspired by modern web design practices and user feedback.
