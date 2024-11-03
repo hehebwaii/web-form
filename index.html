@@ -1,64 +1,36 @@
 <!DOCTYPE html>
-<html lang="en-US">
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width" />
-        <title>Splash Page</title>
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-        <header>
-          <img src="assets/firefox-logo120.png" alt="logo">
-          <h1>Mozilla</h1>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile Card</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="cardContainer">
+        <header class="cardHeader">
+            <h2 class="cardName">Chris Mills</h2>
+            <p>Web Developer</p>
         </header>
-    
-        <main>
-          <article>
-            <iframe width="400" height="300" src="https://www.youtube.com/embed/ojcNcvb1olg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    
-            <h2>Rocking the free web</h2>
-    
-            <p>Mozilla are a global community of technologists, thinkers, and builders, working together to keep the Internet alive and accessible, so people worldwide can be informed contributors and creators of the Web. We believe this act of human collaboration across an open platform is essential to individual growth and our collective future.</p>
-    
-            <p>Click on the images below to find more information about the cool stuff Mozilla does. <a href="https://unsplash.com/photos/sun-bear-lying-on-logs-OyO5NDiRPMM">Red panda picture</a> by Thomas Bonometti.</p>
-          </article>
-    
-          <div class="further-info">
-            <a href="https://www.mozilla.org/en-US/firefox/new/">
-              <img src="assets/firefox-logo400.png" 
-                   srcset="assets/firefox-logo400.png, org/firefox-logo120.png"
-                   sizes="(max-width: 500px) 120px, 400px"
-                   alt="Download Firefox">
-            </a>
-            <a href="https://www.mozilla.org/">
-              <img src="assets/mozilla-dinosaur400.png"
-                   srcset="assets/mozilla-dinosaur400.png , assets/mozilla-dinosaur120.png " 
-                   sizes="(max-width: 500px) 120px, 400px"
-                   alt="Mozilla">
-            </a>
-            <a href="https://addons.mozilla.org/">
-              <img src="assets/firefox-addons400.jpg"
-                   srcset="assets/firefox-addons400.jpg , assets/firefox-addons120.jpg"
-                   sizes="(max-width: 500px) 120px, 400px"
-                   alt="Firefox Add-ons">
-            </a>
-            <a href="https://developer.mozilla.org/en-US/">
-              <img src="assets/mdn.svg"
-              sizes="(max-width: 500px) 120px, 400px"
-              alt="MDN Web Docs">
-            </a>
-            <div class="clearfix"></div>
-          </div>
-    
-          <div class="red-panda">
-            <picture>
-              <source media="(max-width: 600px)" srcset="assets/red-panda.jpg">
-              <img src="assets/red-panda-landscape.jpg" 
-                   srcset="assets/red-panda-landscape.jpg , assets/red-panda-portrait-small.jpg"
-                   alt="Red Panda">
-            </picture>
-          </div>
-    
+        <main class="cardBody">
+
+            <address class="cardAddress">
+                <p class="description">Passionate about creating interactive web experiences and exploring new
+                    technologies.</p>
+                <br>
+                123 Street,<br />
+                Shangrila Town,<br /> Marginham<br />
+                UK<br />
+                <strong>Tel: 123 456 78</strong><br />
+            </address>
+            <img class="cardImage" src="assets/chris.jpg" alt="an image of the card guy" />
         </main>
-      </body>
+        <footer class="cardFooter">
+            <p class="footerText">chrismills@gmail.com</p>
+        </footer>
+    </div>
+</body>
+
 </html>
