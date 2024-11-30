@@ -1,21 +1,26 @@
 # Registration Form
 
-This project contains a simple, responsive registration form with client-side validation. It ensures users provide valid input for their username and password before submission.
+This form ensures a smooth user experience with clear guidance on what’s required for each field, helping users submit their information correctly.
 
 ## Features
 
-- Responsive design for desktop and mobile devices
-- Client-side validation for:
-  - Username (minimum 3 characters)
-  - Password (minimum 8 characters)
-  - Password confirmation (must match)
-- Clear error messages for invalid inputs
-- Success message upon successful registration
+- User-Friendly Design
+- Responsive Layout
+- Input Field Types:
+  Text Input: For entering the full name.
+  Email Input: Specifically for email addresses, leveraging built-in browser validation.
+  Telephone Input: Uses pattern matching to ensure phone numbers follow the specified format (XXX-XXX-XXXX).
+  Textarea: For entering longer messages, offering a more flexible input area.
+- Client-Side Validation
+- Error Handling
+- Submit Button
+- Clean and Modern Design
+- Error Display
 
 ## Technologies Used
 
 - HTML5
-- CSS3
+- CSS
 - JavaScript
 
 ## Usage
